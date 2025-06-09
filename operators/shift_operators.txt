@@ -1,0 +1,55 @@
+left shift
+
+<<
+
+ex:
+    5<<1
+
+    sift left the 5 one time
+
+    meance,
+
+    binar of 5 
+                    0000101   <<
+                    shif it left one time
+                    
+                    00001010   ==  value is 10
+
+    one more
+        3<<2
+        sfte thre left side two times
+
+        meance, 
+
+        bineary of 3  
+                        00011  << 
+                        shif it left side two times
+
+                        0001100  == value is 12
+
+
+
+=================================================================
+
+
+
+right shift
+
+same as left shift here we shift the value to the right side
+
+ex:
+
+    5>>2
+
+    shift 5 right side 2 time
+
+    meance,
+
+    bineary of 5   
+                    0000101   >>
+                         --
+
+                    shif it right side two times so we remove the list two values 01  and add the new two values at the first
+
+                    0000001  ==  value is 1
+                    --

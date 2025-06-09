@@ -1,0 +1,11 @@
+increment operetors  
+
+
+        i++;   (post increment)
+        ++i;   (pre increment)
+
+
+decrement operators
+
+        i--;   (post decrement)
+        --i;   (pre decrement)

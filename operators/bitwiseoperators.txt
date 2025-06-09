@@ -1,0 +1,6 @@
+bitwise operators
+
+and = &
+or = |
+xor = ^
+not = ~ 
