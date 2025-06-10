@@ -1,0 +1,11 @@
+
+for (    int i = 1   ;    i <= n   ;    i++    )
+         ---------        -------       ------
+        initialization    conditions    updations(incre/decre)
+
+
+
+we can add the multiple data in the for loops
+
+ex
+        for(int a=2, b=3  ;  a <= 2  &&  b <= 3  ;  a--, b--)
