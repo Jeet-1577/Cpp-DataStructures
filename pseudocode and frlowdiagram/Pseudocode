@@ -1,0 +1,49 @@
+PSEUDOCODE:
+- A way to represent algorithms in a simplified, human-readable format.
+- Not bound by syntax rules of any specific programming language.
+- Used for planning and communicating algorithms before actual coding.
+
+CHARACTERISTICS:
+- Language-independent
+- Focuses on logic rather than implementation details
+- Uses natural language mixed with simple programming constructs
+- Helps in algorithm design and analysis
+
+COMMON CONVENTIONS:
+- UPPERCASE for keywords (IF, ELSE, WHILE, etc.)
+- Indentation to show structure
+- Simple symbols for operations (+, -, *, /, =, etc.)
+- Plain language for describing complex operations
+
+EXAMPLES:
+
+1. Finding the maximum in an array:
+    FUNCTION FindMax(array)
+         max ← array[0]
+         FOR i ← 1 TO length(array) - 1 DO
+              IF array[i] > max THEN
+                    max ← array[i]
+              END IF
+         END FOR
+         RETURN max
+    END FUNCTION
+
+2. Binary search algorithm:
+    FUNCTION BinarySearch(array, target)
+         left ← 0
+         right ← length(array) - 1
+         
+         WHILE left ≤ right DO
+              mid ← (left + right) / 2
+              
+              IF array[mid] = target THEN
+                    RETURN mid
+              ELSE IF array[mid] < target THEN
+                    left ← mid + 1
+              ELSE
+                    right ← mid - 1
+              END IF
+         END WHILE
+         
+         RETURN -1  // Element not found
+    END FUNCTION

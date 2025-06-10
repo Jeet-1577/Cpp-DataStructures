@@ -1,0 +1,29 @@
+continue:
+
+its used for skiping the iteration
+
+meance,
+
+        if the loop has five value
+                1
+                2
+                3
+                4
+                5
+
+        and the loop will iterate this values 5 times
+
+        now if we add the continue in the middle it will skip the next values from the continue and itrate the all the vlues before the continue
+
+
+                    1
+                    2
+                    continue;
+
+                    3
+                    4
+                    5
+
+                    ==12121212
+
+                    so here the values after continue was skipped 
